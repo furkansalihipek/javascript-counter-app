@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 0 20px 30px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+#btnDesc {
+    background-color: red;
+    color: aliceblue;
+}
+
+#btnInc {
+    background-color: green;
+    color: aliceblue;
+}
+
+#btnReset {
+    background-color: white;
+}
