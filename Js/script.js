@@ -28,14 +28,12 @@ function desc() {
 }
 
 function reset() {
-    value.style.color = "#000000"
     count = 0;
     setValue()
     changeColor()
 }
 
 function inc() {
-    value.style.color = "#3fff00"
     count++;
     setValue()
     changeColor()
